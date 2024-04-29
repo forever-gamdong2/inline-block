@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{}
+body{
+    display: flex;
+    color: white;
+}
+section{
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 40px;
+    filter: grayscale(5) blur(2px);
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+section:hover{
+    width: 50vw;
+    filter: grayscale(0) blur(0);
+    box-shadow: 2px 2px 10px 5px #333;
+}
+section:hover h1{
+    transform: rotate(0deg);
+} 
+h1{
+    font-size: xx-large;
+    transform: rotate(90deg);
+
+    transition-property: all;
+    transition-duration: 2s;
+}
+.box1{
+    background-image: url(https://img.freepik.com/free-photo/3d-render-cherry-blossom-bokeh-lights-background_1048-6029.jpg?t=st=1714378608~exp=1714382208~hmac=5eff79a986b583423b9bd3c0c803f332b76c04dca514ba871b1cdb96edba8d5e&w=996);
+}
+.box2{
+    background-image: url(https://img.freepik.com/free-photo/relaxation-ocean-recreation-tourism-day_1232-4208.jpg?t=st=1714378663~exp=1714382263~hmac=86705b391d373dc738f31a9a3340f44fbec6407ba6975335df0a60df0bc051e3&w=740);
+}
+.box3{
+    background-image: url(https://img.freepik.com/free-photo/season-colorful-brown-sunbeams-outside_1232-3973.jpg?t=st=1714378681~exp=1714382281~hmac=2d8ff10950debd56a0c87031949aac199ce5b15eff0d4247e944bfc6bf1c9d3c&w=740);
+}
+.box4{
+    background-image: url(https://img.freepik.com/free-photo/nice-winter-landscape_1048-3778.jpg?t=st=1714378708~exp=1714382308~hmac=c5d779d4f92ee4fef45d201d8b979ac9339f9633d36eb076ddc17ce0e7d883e0&w=996);
+}
